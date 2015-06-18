@@ -15,7 +15,13 @@ iv. WALKING
 v. WALKING_DOWNSTAIRS
 vi. WALKIJNG_UPSTAIRS
 
-Rest of 79 columns are averages of variables summarised for each activity and subject. The names of the columns are same as the variables names for which the averages have been taken.
+Rest of 79 columns contain values that are "averages" of variables summarised by each activity and subject. The names of the columns are same as the variables names for which the averages have been taken.
+
+Notes: 
+======
+- for each variable, the names that have "mean" as a part of the name, are mean value features
+- for each variable, the names that have "std" as a part of the name, are standard deviation value features
+- Features are normalized and bounded within [-1,1].
 
 The 79 column names are as follows:
 
@@ -98,3 +104,5 @@ fBodyBodyGyroMag.meanFreq..
 fBodyBodyGyroJerkMag.mean..
 fBodyBodyGyroJerkMag.std..
 fBodyBodyGyroJerkMag.meanFreq..
+
+
